@@ -6,7 +6,7 @@ import './Tasks.css';
 
 
 function Tasks({ allTask, removefromUncompletedTask, changeValueOfCircleFill, deletefromUncompletedTask, deleteIconColor, hideRenamingPendingTask,renamePendingTask }) {
-
+ console.log('second time')
   return (
 
     allTask.map((singleTask, index) =>
